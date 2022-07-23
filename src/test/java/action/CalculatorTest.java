@@ -30,6 +30,6 @@ class CalculatorTest {
 
     @Test
     void testPower() {
-        assertEquals(25, calc.division(5, 2));
+        assertEquals(25, calc.power(5, 2));
     }
 }
