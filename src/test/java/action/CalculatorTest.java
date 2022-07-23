@@ -27,4 +27,9 @@ class CalculatorTest {
     void testDivision() {
         assertEquals(2.5, calc.division(5, 2));
     }
+
+    @Test
+    void testPower() {
+        assertEquals(25, calc.division(5, 2));
+    }
 }
